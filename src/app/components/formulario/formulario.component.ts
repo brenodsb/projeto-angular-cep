@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Component, inject } from '@angular/core';
 
 @Component({
   selector: 'app-formulario',
@@ -8,5 +9,15 @@ import { Component } from '@angular/core';
   styleUrl: './formulario.component.css'
 })
 export class FormularioComponent {
+
+    enderecos: any[] = [];
+
+    httpClient = inject(HttpClient);
+
+    ngOnInit() {
+      this.httpClient.get<any>('/api/enderecos').subscribe((enderecos) => {
+        this.enderecos = enderecos;
+    });
+  }
 
 }

@@ -1,1 +1,9 @@
 <p>formulario works!</p>
+
+<ul>
+    @for (endereco of enderecos; track endereco.id) {
+        <li>
+            {{ endereco.logradouro }}
+        </li>
+    }
+</ul>
