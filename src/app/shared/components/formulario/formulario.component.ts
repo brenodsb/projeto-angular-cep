@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
-import { EnderecosService } from '../../services/enderecos/enderecos.service';
+import { EnderecosService } from '../../services/enderecos.service';
 
 @Component({
   selector: 'app-formulario',
