@@ -1,0 +1,52 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input type="text" matInput formControlName="nome" placeholder="Nome">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Data de Nascimento</mat-label>
+        <input type="text" matInput formControlName="data_de_nascimento" placeholder="Data de Nascimento">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>CPF</mat-label>
+        <input type="text" matInput formControlName="cpf" placeholder="CPF">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>E-mail</mat-label>
+        <input type="text" matInput formControlName="email" placeholder="E-mail">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Telefone</mat-label>
+        <input type="text" matInput formControlName="telefone" placeholder="Telefone">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>CEP</mat-label>
+        <input type="text" matInput formControlName="cep" placeholder="CEP">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Rua</mat-label>
+        <input type="text" matInput formControlName="rua" placeholder="Rua">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Numero</mat-label>
+        <input type="text" matInput formControlName="numero" placeholder="Numero">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Complemento</mat-label>
+        <input type="text" matInput formControlName="complemento" placeholder="Complemento">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Bairro</mat-label>
+        <input type="text" matInput formControlName="bairro" placeholder="Bairro">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Cidade</mat-label>
+        <input type="text" matInput formControlName="cidade" placeholder="Cidade">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Estado</mat-label>
+        <input type="text" matInput formControlName="estado" placeholder="Estado">
+    </mat-form-field>
+
+    <button type="submit">Salvar</button>
+</form>
