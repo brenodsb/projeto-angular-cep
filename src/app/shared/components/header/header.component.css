@@ -1,3 +1,11 @@
 .title {
     text-align: center;
+    font-size: 120%;
+    padding-top: 5px;
+    color: #ffd740;
+    font-weight: bold;
+}
+
+.name {
+    text-align: center;
 }
