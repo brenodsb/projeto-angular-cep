@@ -1,4 +1,5 @@
 export class Endereco {
+    // Declaração das propriedades do endereço com valores padrão
     cep: string = '';
     logradouro: string = '';
     complemento: string = '';
@@ -10,6 +11,7 @@ export class Endereco {
     ddd: string = '';
     siafi: string = '';
   
+    // Construtor da classe para inicializar as propriedades
     constructor(
       cep: string,
       logradouro: string,
@@ -22,6 +24,7 @@ export class Endereco {
       ddd: string,
       siafi: string
     ) {
+      // Inicializa as propriedades
       this.cep = cep;
       this.logradouro = logradouro;
       this.complemento = complemento;
