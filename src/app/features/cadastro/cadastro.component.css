@@ -1,5 +1,17 @@
-form {
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-content-container{
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+}
+
+.save-container{
+    display: flex;
+    justify-content: center;
 }
